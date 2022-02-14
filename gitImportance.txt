@@ -1,0 +1,27 @@
+->Git is a type of VCS(Version Control System) that tracks changes in anty files
+
+Need OF VCS
+->Revert selected files to previous state
+->compare changes over time
+->Prevents data loss
+->Track diffrent changes done by diffrent people in diffrent organisations
+
+Types of VCS---
+1. CVCS->Centralised Version Control System
+In CVCS, we have a centralised datsbase and this centralised datsbase is also called master or remote server.Any changes done
+has to be pushed to this centralised datsbase.
+Its benefit is that its easy to understand ans its drawback is that we cannot access data if connectivity is lost.
+
+
+2. DVCS->Distributed Version Control System
+In DVCS, every computer has a local repository associted with it. This lr(local repository) acts as an intermediary
+between the master and the loscal computers.
+One of the major advantage of DVCS is that if connectivity is lost, we still dont face the problem as all the data is present
+in the lr(local repository).
+
+
+GIT->Its a DVCS
+There are three stages of a git file->
+1.Modidied->This state is in the working directory
+2.Staged->After modifing the files, we put them in the staging area so that we can commit them in the lr
+3.Commited->The files present in the staged area is then commited to put it in the local repository 
